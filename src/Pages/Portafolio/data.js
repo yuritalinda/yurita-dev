@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Stefanini Intranet",
-    stack: "#React #Firebase #Javascript #Reacstrap",
+    stack: "#React #Firebase #Javascript #Reactstrap #Figma",
     description:
       "Portal que unifica información sobre los beneficios de los empleados de Stefanini más un CMS para que el encargado actualice esta info en tiempo real",
     image: "",
