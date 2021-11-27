@@ -1,0 +1,66 @@
+@import "/src/index.css";
+
+
+.header-container {
+  background-color: var(--old-purple);
+  color: var(--deep-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-wrapper{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.hello {
+  font-size: 36px;
+  color: var(--ligh-pink);
+  margin-top: 40px;
+
+}
+
+.name{
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.profession{
+  font-size: 18px;
+  color: #d2bed9;
+  margin-top: 30px;
+}
+
+.icon-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon{
+  width: 4rem;
+  height: 4rem;
+  opacity: 50%;
+}
+
+.header-img{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header-img img{
+  width: 50%;
+}
