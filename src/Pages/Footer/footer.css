@@ -1,0 +1,58 @@
+@import '/src/index.css';
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--old-purple);
+  color: var(--ligh-pink);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container{
+width: 85%;
+
+}
+
+.footer-title{
+  background-color: var(--old-grey);
+  padding: 3%;
+  border-radius: 40px 0 40px 0;
+  width: fit-content;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.download-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.image-container {
+  margin-top: 30%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img{
+  width: 50%;
+}
+
+
+
+.footer-credits-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.inspiration span{
+  text-decoration: line-through;
+}
+

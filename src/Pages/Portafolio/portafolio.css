@@ -1,0 +1,76 @@
+@import '/src/index.css';
+
+.portafolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--old-pink);
+  color: var(--deep-grey);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+ .proyect-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 85%;  
+}
+
+.proyect-title{
+  width: 100%;
+  text-align: center;
+}
+
+.proyect-title h2{
+  color: var(--old-grey);
+  text-shadow: 1px 1px 0 var(--ligh-pink);
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.preview{
+  align-self: center;
+}
+
+.preview img{
+  border-radius: 0 40px 0 40px;
+  width: 100%;
+  box-shadow: 2px 2px 4px var(--ligh-pink);
+  border: solid 5px var(--old-purple);
+}
+
+.stack{
+  align-self: center;
+  margin: 2%;
+  font-weight: 900;
+}
+
+.description{
+  align-self: center;
+  margin: 2%;
+  text-align: justify;
+}
+
+.links-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 60%;
+
+}
+
+.link a{
+  text-decoration: none;
+  
+
+}
+
+.link-icon{
+  font-size: 3rem;
+  color: var(--old-grey);
+}

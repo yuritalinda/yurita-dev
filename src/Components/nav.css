@@ -1,0 +1,30 @@
+@import '../index.css';
+
+
+.navbar{
+  width: 100%;
+  min-height: 6vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+ul li{
+  list-style: none;
+}
+
+.navigation {
+ 
+  background-color: var(--old-blue);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.navigation a{
+  color: var(--ligh-pink);
+}

@@ -1,0 +1,24 @@
+:root{
+  --old-pink:#C296AC;
+  --old-purple:#9C89B1;
+  --old-blue: #6481ada2;
+  --old-grey: #4F5A70;
+  --deep-grey:#2F4858;
+  --ligh-pink:#FFECF1;
+
+
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+width: 100vw;
+}
+
+
