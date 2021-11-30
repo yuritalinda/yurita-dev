@@ -3,30 +3,30 @@ export const projects = [
     title: "Stefanini Intranet",
     stack: "#React #Firebase #Javascript #Reactstrap #Figma",
     description:
-      "Portal que unifica información sobre los beneficios de los empleados de Stefanini más un CMS para que el encargado actualice esta info en tiempo real",
-    image: "",
+      "Portal de info para empleados de Stefanini y un CMS para el administrador de los contenidos.",
+    image: "https://user-images.githubusercontent.com/73949701/143721421-9a31ff88-5928-4b0f-a8da-8e316d4f2373.png",
     link: {
       github: "https://github.com/yuritalinda/intranet-stefanini",
       deploylink: "https://intranetstefanini-1cdf1.web.app/",
     } 
   },
   {
-    title: "",
-    stack: "React and Python",
+    title: "Social Network",
+    stack: "#Javascript #Firebase #HTML #CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "",
+      "Primer CRUD para crear una red social para entusiastas de la vida natural",
+    image: "https://user-images.githubusercontent.com/73949701/143721421-9a31ff88-5928-4b0f-a8da-8e316d4f2373.png",
     link: {
-      github: "https://reactbootcamp.com",
-      deploylink: "https://reactbootcamp.com",
+      github: "https://github.com/yuritalinda/SCL017-social-network",
+      deploylink: "https://naturopolis.netlify.app/",
     } ,
   },
   {
     title: "Museo de Michis",
-    stack: "React and Firebase",
+    stack: "#Bootstrap #HTML #CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "",
+      "Probando Bootstrap para mostrar a los mejores michis.",
+    image: "https://user-images.githubusercontent.com/73949701/143721421-9a31ff88-5928-4b0f-a8da-8e316d4f2373.png",
     link: {
       github: "https://reactbootcamp.com",
       deploylink: "https://museodemichis.netlify.app/",
@@ -34,10 +34,10 @@ export const projects = [
   },
   {
     title: "Podcast landing page",
-    stack: "React Hooks",
+    stack: "#Javascript #HTML #CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "",
+      "Portal de podcast para desarrolladores. Primeros pasos maquetando un diseño.",
+    image: "https://user-images.githubusercontent.com/73949701/143721421-9a31ff88-5928-4b0f-a8da-8e316d4f2373.png",
     link: {
       github: "https://reactbootcamp.com",
       deploylink: "https://podcast-channel-landing.netlify.app/",

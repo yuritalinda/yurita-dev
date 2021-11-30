@@ -15,7 +15,7 @@ function Footer() {
 
 
     <div className="download-container">
-    <a download="Yuri_Baptista_Resume.PDF" href="src/Assets/Docs/Yuri_Baptista_Resume.PDF">
+    <a download="Yuri_Baptista_Resume.PDF" href="https://pdfhost.io/v/bri79j6.d_Yuri_Baptista_ResumePDF">
     <FontAwesomeIcon className="link-icon" icon={faFileDownload} />
     </a>
 
@@ -23,7 +23,7 @@ function Footer() {
     </div>
 
     <div className="image-container">
-    <img src="https://i.postimg.cc/W1cG2cRk/footer-img.png" alt="footer-img" className="footer-img" />
+    <img src="https://user-images.githubusercontent.com/73949701/143720793-db1429ae-0fa6-4188-aa49-3795f7e65f3c.png" alt="footer-img" className="footer-img" />
     </div>
 
     <div className="footer-credits-container">

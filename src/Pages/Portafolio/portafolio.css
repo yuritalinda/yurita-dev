@@ -7,17 +7,17 @@
   align-items: center;
   background-color: var(--old-pink);
   color: var(--deep-grey);
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 60px;
 }
 
  .proyect-wrapper{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin-top: 20px;
-  margin-bottom: 20px;
   width: 85%;  
+  height: 750px;
 }
 
 .proyect-title{
@@ -34,13 +34,17 @@
 
 .preview{
   align-self: center;
+  height: 30%;
+  overflow-y: scroll;
+  border-radius: 0 40px 0 40px;
+  box-shadow: 2px 2px 4px var(--ligh-pink);
+  border: solid 5px var(--old-purple);
 }
 
 .preview img{
-  border-radius: 0 40px 0 40px;
+  
   width: 100%;
-  box-shadow: 2px 2px 4px var(--ligh-pink);
-  border: solid 5px var(--old-purple);
+
 }
 
 .stack{

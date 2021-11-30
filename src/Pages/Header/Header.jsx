@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
 import '../Header/header.css'
+import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 function Header() {
@@ -15,11 +17,11 @@ function Header() {
         <h3 className="profession">Web Front-end Developer & Profesional Makeup Artist</h3>
       </div>
       <div className="icon-wrapper">
-        <a href="https://github.com/yuritalinda" target="_blank" rel="noreferrer">
-        <img className="icon" src="https://i.postimg.cc/PxQRmbTp/github.png" alt="github-icon"/>
+        <a href="https://github.com/yuritalinda/yuritalinda/blob/main/README.md" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon className="icon" icon={faGithubSquare} /> 
         </a>
         <a href="https://www.linkedin.com/in/yuritalinda/" target='_blank' rel='noreferrer'>
-        <img className="icon" src="https://i.postimg.cc/d3QSn7VW/linkedin.png" alt="linkedin-icon"/>
+        <FontAwesomeIcon className="icon" icon={faLinkedin} />
         </a>
       </div>
 

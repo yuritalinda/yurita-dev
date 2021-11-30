@@ -50,7 +50,7 @@ a {
 .icon{
   width: 4rem;
   height: 4rem;
-  opacity: 50%;
+  color: var(--old-grey);
 }
 
 .header-img{
