@@ -8,25 +8,23 @@ function Footer() {
 <div className="contact" id="contact">
   <footer className="footer-container">
 
-  
+  <div className="resume-wrapper">
     <h1 className="footer-title">
       Wanna hire me?
     </h1>
-
-
-    <div className="download-container">
-    <a download="Yuri_Baptista_Resume.PDF" href="https://pdfhost.io/v/bri79j6.d_Yuri_Baptista_ResumePDF">
-    <FontAwesomeIcon className="link-icon" icon={faFileDownload} />
-    </a>
-
-    <h3>Download my resume</h3>
+   <div className="download-container">
+        <a download="Yuri_Baptista_Resume.PDF" href="https://pdfhost.io/v/bri79j6.d_Yuri_Baptista_ResumePDF" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon className="link-icon" icon={faFileDownload} />
+        </a>
+        <h3>Download my resume</h3>
+    </div>
     </div>
 
+
+    <div className="footer-credits-container">
     <div className="image-container">
     <img src="https://user-images.githubusercontent.com/73949701/143720793-db1429ae-0fa6-4188-aa49-3795f7e65f3c.png" alt="footer-img" className="footer-img" />
     </div>
-
-    <div className="footer-credits-container">
       <h5 className="credit">
         This site was made by me Yuri Baptista
       </h5>

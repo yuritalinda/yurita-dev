@@ -27,4 +27,29 @@ ul li{
 
 .navigation a{
   color: var(--ligh-pink);
+  font-size: 22px;
 }
+
+@media only screen and (min-width: 768px) {
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+    
+  }
+
+  .navbar ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .navigation a{
+    padding: 10px;
+    font-size: 30px;
+    
+  }
+}
+
+

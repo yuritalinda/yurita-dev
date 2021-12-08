@@ -32,39 +32,31 @@
   margin-bottom: 10px;
 }
 
-.preview{
-  align-self: center;
-  height: 30%;
-  overflow-y: scroll;
+.preview img{
+  
   border-radius: 0 40px 0 40px;
   box-shadow: 2px 2px 4px var(--ligh-pink);
   border: solid 5px var(--old-purple);
-}
-
-.preview img{
-  
-  width: 100%;
-
 }
 
 .stack{
   align-self: center;
   margin: 2%;
   font-weight: 900;
+  text-align: center;
 }
 
 .description{
   align-self: center;
   margin: 2%;
-  text-align: justify;
+  text-align: center;
 }
 
 .links-wrapper{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-self: center;
-  width: 60%;
 
 }
 
@@ -77,4 +69,28 @@
 .link-icon{
   font-size: 3rem;
   color: var(--old-grey);
+}
+
+@media only screen and (min-width: 768px) {
+
+  .portafolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .proyect-wrapper{
+    width: 50%;
+    justify-content: space-around;
+
+  }
+
+  .proyect-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }

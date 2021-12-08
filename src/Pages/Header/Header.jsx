@@ -9,13 +9,13 @@ function Header() {
 
 
   return (
-    <header className="header-container" id="home">
+    <header className="header-container responsive-header" id="home">
     <Navbar />
       <div className="text-wrapper">
         <h2 className="hello">Hello...</h2>
         <h1 className="name">I'm Yuri Baptista</h1>
         <h3 className="profession">Web Front-end Developer & Profesional Makeup Artist</h3>
-      </div>
+      
       <div className="icon-wrapper">
         <a href="https://github.com/yuritalinda/yuritalinda/blob/main/README.md" target="_blank" rel="noreferrer">
         <FontAwesomeIcon className="icon" icon={faGithubSquare} /> 
@@ -23,6 +23,7 @@ function Header() {
         <a href="https://www.linkedin.com/in/yuritalinda/" target='_blank' rel='noreferrer'>
         <FontAwesomeIcon className="icon" icon={faLinkedin} />
         </a>
+      </div>
       </div>
 
       <div className="header-img">
